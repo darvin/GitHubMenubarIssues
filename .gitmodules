@@ -1,0 +1,6 @@
+[submodule "libs/UAGithubEngine"]
+	path = libs/UAGithubEngine
+	url = git://github.com/owainhunt/UAGithubEngine.git
+[submodule "libs/LRAppDefaults"]
+	path = libs/LRAppDefaults
+	url = git://github.com/leftright/LRAppDefaults.git
