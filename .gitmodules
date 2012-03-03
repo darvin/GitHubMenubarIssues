@@ -4,3 +4,9 @@
 [submodule "libs/LRAppDefaults"]
 	path = libs/LRAppDefaults
 	url = git://github.com/leftright/LRAppDefaults.git
+[submodule "libs/taskit"]
+	path = libs/taskit
+	url = git://github.com/fileability/taskit.git
+[submodule "libs/LaunchAtLoginController"]
+	path = libs/LaunchAtLoginController
+	url = git://github.com/Mozketo/LaunchAtLoginController.git

@@ -7,8 +7,9 @@
 //
 
 #import "RepoMenuItem.h"
+#import "Repository.h"
 @implementation RepoMenuItem
-@synthesize repoMenuView=_repoMenuView;
+@synthesize repoMenuView=_repoMenuView, titleLabel=_titleLabel;
 
 - (id) initWithTitle:(NSString *)aString action:(SEL)aSelector keyEquivalent:(NSString *)charCode {
     if (self=[super initWithTitle:aString action:aSelector keyEquivalent:charCode]) {
@@ -17,4 +18,14 @@
     }
     return self;
 }
+
+
+-(id) initWithRepresentedObject:(Repository*) representedObject {
+    if (self=[self initWithTitle:representedObject.name action:nil keyEquivalent:@""]) {
+        self.representedObject = representedObject;
+        [self.titleLabel setStringValue:representedObject.name];
+    }
+    return self;
+}
+
 @end

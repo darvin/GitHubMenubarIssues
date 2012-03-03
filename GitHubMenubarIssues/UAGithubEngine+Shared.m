@@ -14,11 +14,16 @@
     
     @synchronized(self)
     {
-        if (!shared)
-            shared = [[UAGithubEngine alloc] initWithUsername:[LRAppDefaults getAppSettingWithKey:@"githubUsername"] password:[LRAppDefaults getAppSettingWithKey:@"githubPassword"] withReachability:YES];
+        NSString *username = [LRAppDefaults getAppSettingWithKey:@"githubUsername"];
+        NSString *password = [LRAppDefaults getAppSettingWithKey:@"githubPassword"];
+        if (!shared&&!([shared.username isEqualToString:username]&&[shared.password isEqualToString:password]))
+            shared = [[UAGithubEngine alloc] initWithUsername:username password:password withReachability:YES];
         
         return shared;
     }
 }
 
++(NSString*) currentUser {
+    return [LRAppDefaults getAppSettingWithKey:@"githubUsername"];
+}
 @end

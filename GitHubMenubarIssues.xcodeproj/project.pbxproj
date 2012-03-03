@@ -34,6 +34,16 @@
 		571F50CD14F9E81900230D43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F50AD14F9E81800230D43 /* Cocoa.framework */; };
 		571F50D514F9E81900230D43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571F50D314F9E81900230D43 /* InfoPlist.strings */; };
 		571F50D814F9E81900230D43 /* GitHubMenubarIssuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F50D714F9E81900230D43 /* GitHubMenubarIssuesTests.m */; };
+		5771C1E11501EB9500CA9862 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C1E01501EB9500CA9862 /* Repository.m */; };
+		5771C1E51502031B00CA9862 /* Issue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C1E41502031B00CA9862 /* Issue.m */; };
+		5771C1E915021C6800CA9862 /* issue-status-assign.png in Resources */ = {isa = PBXBuildFile; fileRef = 5771C1E615021C6800CA9862 /* issue-status-assign.png */; };
+		5771C1EA15021C6800CA9862 /* issue-status-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5771C1E715021C6800CA9862 /* issue-status-close.png */; };
+		5771C1EB15021C6800CA9862 /* issue-status-reopen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5771C1E815021C6800CA9862 /* issue-status-reopen.png */; };
+		5771C20715021FEF00CA9862 /* Taskit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C1F015021FEF00CA9862 /* Taskit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5771C216150228DE00CA9862 /* issue-status-closed-by-commit.png in Resources */ = {isa = PBXBuildFile; fileRef = 5771C215150228DE00CA9862 /* issue-status-closed-by-commit.png */; };
+		5771C2191502300F00CA9862 /* PrefController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5771C2171502300E00CA9862 /* PrefController.xib */; };
+		5771C21E150230CD00CA9862 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C21C150230CD00CA9862 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5771C226150233F600CA9862 /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C225150233F600CA9862 /* PrefController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +107,21 @@
 		571F50D414F9E81900230D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		571F50D614F9E81900230D43 /* GitHubMenubarIssuesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHubMenubarIssuesTests.h; sourceTree = "<group>"; };
 		571F50D714F9E81900230D43 /* GitHubMenubarIssuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubMenubarIssuesTests.m; sourceTree = "<group>"; };
+		5771C1DF1501EB9500CA9862 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		5771C1E01501EB9500CA9862 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		5771C1E31502031B00CA9862 /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
+		5771C1E41502031B00CA9862 /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
+		5771C1E615021C6800CA9862 /* issue-status-assign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "issue-status-assign.png"; sourceTree = "<group>"; };
+		5771C1E715021C6800CA9862 /* issue-status-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "issue-status-close.png"; sourceTree = "<group>"; };
+		5771C1E815021C6800CA9862 /* issue-status-reopen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "issue-status-reopen.png"; sourceTree = "<group>"; };
+		5771C1EF15021FEF00CA9862 /* Taskit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taskit.h; sourceTree = "<group>"; };
+		5771C1F015021FEF00CA9862 /* Taskit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taskit.m; sourceTree = "<group>"; };
+		5771C215150228DE00CA9862 /* issue-status-closed-by-commit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "issue-status-closed-by-commit.png"; sourceTree = "<group>"; };
+		5771C2181502300F00CA9862 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrefController.xib; sourceTree = "<group>"; };
+		5771C21B150230CD00CA9862 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		5771C21C150230CD00CA9862 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		5771C224150233F600CA9862 /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
+		5771C225150233F600CA9862 /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +158,10 @@
 		5718D6FB14FA115C009E04BC /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				5771C215150228DE00CA9862 /* issue-status-closed-by-commit.png */,
+				5771C1E615021C6800CA9862 /* issue-status-assign.png */,
+				5771C1E715021C6800CA9862 /* issue-status-close.png */,
+				5771C1E815021C6800CA9862 /* issue-status-reopen.png */,
 				5718D6FC14FA115C009E04BC /* MenubarIcon.png */,
 			);
 			path = Graphics;
@@ -254,6 +283,13 @@
 				5718D74914FA1EBF009E04BC /* IssueMenuItem.m */,
 				5718D75214FA2312009E04BC /* UAGithubEngine+Shared.h */,
 				5718D75314FA2312009E04BC /* UAGithubEngine+Shared.m */,
+				5771C1DF1501EB9500CA9862 /* Repository.h */,
+				5771C1E01501EB9500CA9862 /* Repository.m */,
+				5771C1E31502031B00CA9862 /* Issue.h */,
+				5771C1E41502031B00CA9862 /* Issue.m */,
+				5771C2171502300E00CA9862 /* PrefController.xib */,
+				5771C224150233F600CA9862 /* PrefController.h */,
+				5771C225150233F600CA9862 /* PrefController.m */,
 			);
 			path = GitHubMenubarIssues;
 			sourceTree = "<group>";
@@ -292,10 +328,30 @@
 		571F50E114F9E85900230D43 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				5771C21A150230CD00CA9862 /* LaunchAtLoginController */,
+				5771C1EC15021FEF00CA9862 /* taskit */,
 				5718D71F14FA164D009E04BC /* LRAppDefaults */,
 				5718D6FE14FA11D2009E04BC /* UAGithubEngine */,
 			);
 			path = libs;
+			sourceTree = "<group>";
+		};
+		5771C1EC15021FEF00CA9862 /* taskit */ = {
+			isa = PBXGroup;
+			children = (
+				5771C1EF15021FEF00CA9862 /* Taskit.h */,
+				5771C1F015021FEF00CA9862 /* Taskit.m */,
+			);
+			path = taskit;
+			sourceTree = "<group>";
+		};
+		5771C21A150230CD00CA9862 /* LaunchAtLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				5771C21B150230CD00CA9862 /* LaunchAtLoginController.h */,
+				5771C21C150230CD00CA9862 /* LaunchAtLoginController.m */,
+			);
+			path = LaunchAtLoginController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +432,11 @@
 				5718D6FD14FA115C009E04BC /* MenubarIcon.png in Resources */,
 				5718D74414FA18B6009E04BC /* RepoMenuItem.xib in Resources */,
 				5718D74714FA1D8A009E04BC /* IssueMenuItem.xib in Resources */,
+				5771C1E915021C6800CA9862 /* issue-status-assign.png in Resources */,
+				5771C1EA15021C6800CA9862 /* issue-status-close.png in Resources */,
+				5771C1EB15021C6800CA9862 /* issue-status-reopen.png in Resources */,
+				5771C216150228DE00CA9862 /* issue-status-closed-by-commit.png in Resources */,
+				5771C2191502300F00CA9862 /* PrefController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +486,11 @@
 				5718D74114FA176D009E04BC /* RepoMenuItem.m in Sources */,
 				5718D74A14FA1EBF009E04BC /* IssueMenuItem.m in Sources */,
 				5718D75414FA2312009E04BC /* UAGithubEngine+Shared.m in Sources */,
+				5771C1E11501EB9500CA9862 /* Repository.m in Sources */,
+				5771C1E51502031B00CA9862 /* Issue.m in Sources */,
+				5771C20715021FEF00CA9862 /* Taskit.m in Sources */,
+				5771C21E150230CD00CA9862 /* LaunchAtLoginController.m in Sources */,
+				5771C226150233F600CA9862 /* PrefController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +559,14 @@
 				571F50D414F9E81900230D43 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5771C2171502300E00CA9862 /* PrefController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5771C2181502300F00CA9862 /* en */,
+			);
+			name = PrefController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

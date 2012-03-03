@@ -7,11 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#import "PrefController.h"
+@interface AppDelegate : NSObject <NSApplicationDelegate, PrefControllerDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSMenu * statusMenu;
 @property (retain) NSStatusItem * statusItem;
+@property (nonatomic, retain) NSArray *repos;
 
+- (void) updateIssues;
 @end

@@ -7,8 +7,13 @@
 //
 
 #import <AppKit/AppKit.h>
-
-@interface IssueMenuItem : NSMenuItem
+#import "Issue.h"
+@interface IssueMenuItem : NSMenuItem <IssueDelegate>
 @property (assign) IBOutlet NSView* issueMenuView;
+@property (assign) IBOutlet NSButton *statusButton;
+@property (assign) IBOutlet NSTextField *titleLabel;
 
+
+-(id) initWithRepresentedObject:(Issue*) representedObject;
+-(IBAction)statusButtonClicked:(id)sender;
 @end

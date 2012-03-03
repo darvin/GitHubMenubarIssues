@@ -10,4 +10,5 @@
 
 @interface UAGithubEngine (Shared)
 +(UAGithubEngine *) shared;
++(NSString*) currentUser;
 @end
