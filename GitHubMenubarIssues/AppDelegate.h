@@ -16,4 +16,6 @@
 @property (nonatomic, retain) NSArray *repos;
 
 - (void) updateIssues;
+- (IBAction) openPreferences:(id)sender;
+- (void) updateRepos ;
 @end

@@ -40,12 +40,10 @@ return prefs;
 }
 
 - (NSArray *) repos {
-     AppDelegate* __weak appDelegate = [[NSApplication sharedApplication] delegate];
-    return appDelegate.repos;
+    return ((AppDelegate*)([NSApplication sharedApplication].delegate)).repos;
 }
 - (void) setRepos:(NSArray *)repos {
-    AppDelegate* appDelegate = [[NSApplication sharedApplication] delegate];
-    appDelegate.repos = repos;
+    ((AppDelegate*)([NSApplication sharedApplication].delegate)).repos = repos;
 }
 
 - (void) setUsername:(NSString *)username {

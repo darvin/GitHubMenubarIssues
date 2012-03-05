@@ -20,9 +20,9 @@
 @interface PrefController : NSWindowController <NSWindowDelegate> {
 }
 
-@property (nonatomic) NSArray *repos;
-@property NSString* username;
-@property NSString* password;
+@property (assign, nonatomic) NSArray *repos;
+@property (copy) NSString* username;
+@property (copy) NSString* password;
 @property (assign) IBOutlet NSArrayController *repoArrayController;
 
 @property (assign) IBOutlet NSTextField *createRepoName;

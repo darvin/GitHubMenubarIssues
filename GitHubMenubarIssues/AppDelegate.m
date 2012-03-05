@@ -28,6 +28,10 @@ repos=_repos;
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     if ([LRAppDefaults isNewInstall]||![[NSKeyedUnarchiver unarchiveObjectWithData:[LRAppDefaults getAppSettingWithKey:@"monitoredRepos"]] count]) {
+        [LRAppDefaults addAppSetting:@"" withKey:@"githubUsername"];
+        [LRAppDefaults addAppSetting:@"" withKey:@"githubPassword"];
+        [LRAppDefaults addAppSetting:[NSArray array] withKey:@"monitoredRepos"];
+
         [self openPreferences:self];
     }
     
