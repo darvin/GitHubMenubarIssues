@@ -74,7 +74,7 @@
 - (void) commitWithIssue:(Issue *)issue {
     Taskit *task = [Taskit task];
     task.launchPath = @"/usr/bin/git";
-    task.workingDirectory = [self.path absoluteString];
+    task.workingDirectory = self.path;
     [task.arguments addObject:@"commit"];
     [task.arguments addObject:@"-a"];
     [task.arguments addObject:@"-m"];

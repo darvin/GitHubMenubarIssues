@@ -10,7 +10,7 @@
 @class Issue;
 @interface Repository : NSObject <NSCoding>
 @property (copy) NSString* name;
-@property (copy) NSURL * path;
+@property (copy) NSString * path;
 @property (strong) NSMutableArray *issues;
 @property BOOL closeByCommit;
 @property BOOL showInMenu;
