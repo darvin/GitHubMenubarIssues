@@ -8,15 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5718D6FD14FA115C009E04BC /* MenubarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5718D6FC14FA115C009E04BC /* MenubarIcon.png */; };
-		5718D71414FA11D2009E04BC /* UAGithubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70014FA11D2009E04BC /* UAGithubEngine.m */; };
-		5718D71514FA11D2009E04BC /* UAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70214FA11D2009E04BC /* UAReachability.m */; };
-		5718D71614FA11D2009E04BC /* UAGithubEngineConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70514FA11D2009E04BC /* UAGithubEngineConstants.m */; };
-		5718D71714FA11D2009E04BC /* UAGithubURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70714FA11D2009E04BC /* UAGithubURLConnection.m */; };
-		5718D71814FA11D2009E04BC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70B14FA11D2009E04BC /* NSData+Base64.m */; };
-		5718D71914FA11D2009E04BC /* NSString+UAGithubEngineUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70D14FA11D2009E04BC /* NSString+UAGithubEngineUtilities.m */; };
-		5718D71A14FA11D2009E04BC /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D70F14FA11D2009E04BC /* NSString+UUID.m */; };
-		5718D71B14FA11D2009E04BC /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D71114FA11D2009E04BC /* NSArray+Utilities.m */; };
-		5718D71C14FA11D2009E04BC /* UAGithubJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D71314FA11D2009E04BC /* UAGithubJSONParser.m */; };
 		5718D71E14FA1261009E04BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5718D71D14FA1261009E04BC /* SystemConfiguration.framework */; };
 		5718D73A14FA164D009E04BC /* LRAppDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D72F14FA164D009E04BC /* LRAppDefaults.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5718D74114FA176D009E04BC /* RepoMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5718D74014FA176D009E04BC /* RepoMenuItem.m */; };
@@ -44,6 +35,15 @@
 		5771C2191502300F00CA9862 /* PrefController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5771C2171502300E00CA9862 /* PrefController.xib */; };
 		5771C21E150230CD00CA9862 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C21C150230CD00CA9862 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5771C226150233F600CA9862 /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771C225150233F600CA9862 /* PrefController.m */; };
+		57A808761505914E00494DAD /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A808521505914E00494DAD /* NSArray+Utilities.m */; };
+		57A808771505914E00494DAD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A808541505914E00494DAD /* NSData+Base64.m */; };
+		57A808781505914E00494DAD /* NSString+UAGithubEngineUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A808561505914E00494DAD /* NSString+UAGithubEngineUtilities.m */; };
+		57A808791505914E00494DAD /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A808581505914E00494DAD /* NSString+UUID.m */; };
+		57A8087A1505914E00494DAD /* UAGithubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A8085A1505914E00494DAD /* UAGithubEngine.m */; };
+		57A8087B1505914E00494DAD /* UAGithubEngineConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A8085C1505914E00494DAD /* UAGithubEngineConstants.m */; };
+		57A8087C1505914E00494DAD /* UAGithubJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A8085F1505914E00494DAD /* UAGithubJSONParser.m */; };
+		57A8087D1505914E00494DAD /* UAGithubURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A808611505914E00494DAD /* UAGithubURLConnection.m */; };
+		57A8087E1505914E00494DAD /* UAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A808631505914E00494DAD /* UAReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,25 +58,6 @@
 
 /* Begin PBXFileReference section */
 		5718D6FC14FA115C009E04BC /* MenubarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenubarIcon.png; sourceTree = "<group>"; };
-		5718D6FF14FA11D2009E04BC /* UAGithubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngine.h; sourceTree = "<group>"; };
-		5718D70014FA11D2009E04BC /* UAGithubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngine.m; sourceTree = "<group>"; };
-		5718D70114FA11D2009E04BC /* UAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAReachability.h; sourceTree = "<group>"; };
-		5718D70214FA11D2009E04BC /* UAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAReachability.m; sourceTree = "<group>"; };
-		5718D70314FA11D2009E04BC /* UAGithubEngineRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineRequestTypes.h; sourceTree = "<group>"; };
-		5718D70414FA11D2009E04BC /* UAGithubEngineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineConstants.h; sourceTree = "<group>"; };
-		5718D70514FA11D2009E04BC /* UAGithubEngineConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngineConstants.m; sourceTree = "<group>"; };
-		5718D70614FA11D2009E04BC /* UAGithubURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubURLConnection.h; sourceTree = "<group>"; };
-		5718D70714FA11D2009E04BC /* UAGithubURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubURLConnection.m; sourceTree = "<group>"; };
-		5718D70A14FA11D2009E04BC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		5718D70B14FA11D2009E04BC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		5718D70C14FA11D2009E04BC /* NSString+UAGithubEngineUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAGithubEngineUtilities.h"; sourceTree = "<group>"; };
-		5718D70D14FA11D2009E04BC /* NSString+UAGithubEngineUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UAGithubEngineUtilities.m"; sourceTree = "<group>"; };
-		5718D70E14FA11D2009E04BC /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
-		5718D70F14FA11D2009E04BC /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
-		5718D71014FA11D2009E04BC /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
-		5718D71114FA11D2009E04BC /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
-		5718D71214FA11D2009E04BC /* UAGithubJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubJSONParser.h; sourceTree = "<group>"; };
-		5718D71314FA11D2009E04BC /* UAGithubJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubJSONParser.m; sourceTree = "<group>"; };
 		5718D71D14FA1261009E04BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5718D72E14FA164D009E04BC /* LRAppDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAppDefaults.h; sourceTree = "<group>"; };
 		5718D72F14FA164D009E04BC /* LRAppDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAppDefaults.m; sourceTree = "<group>"; };
@@ -122,6 +103,25 @@
 		5771C21C150230CD00CA9862 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 		5771C224150233F600CA9862 /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
 		5771C225150233F600CA9862 /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
+		57A808511505914E00494DAD /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
+		57A808521505914E00494DAD /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
+		57A808531505914E00494DAD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		57A808541505914E00494DAD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		57A808551505914E00494DAD /* NSString+UAGithubEngineUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAGithubEngineUtilities.h"; sourceTree = "<group>"; };
+		57A808561505914E00494DAD /* NSString+UAGithubEngineUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UAGithubEngineUtilities.m"; sourceTree = "<group>"; };
+		57A808571505914E00494DAD /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		57A808581505914E00494DAD /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		57A808591505914E00494DAD /* UAGithubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngine.h; sourceTree = "<group>"; };
+		57A8085A1505914E00494DAD /* UAGithubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngine.m; sourceTree = "<group>"; };
+		57A8085B1505914E00494DAD /* UAGithubEngineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineConstants.h; sourceTree = "<group>"; };
+		57A8085C1505914E00494DAD /* UAGithubEngineConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngineConstants.m; sourceTree = "<group>"; };
+		57A8085D1505914E00494DAD /* UAGithubEngineRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineRequestTypes.h; sourceTree = "<group>"; };
+		57A8085E1505914E00494DAD /* UAGithubJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubJSONParser.h; sourceTree = "<group>"; };
+		57A8085F1505914E00494DAD /* UAGithubJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubJSONParser.m; sourceTree = "<group>"; };
+		57A808601505914E00494DAD /* UAGithubURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubURLConnection.h; sourceTree = "<group>"; };
+		57A808611505914E00494DAD /* UAGithubURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubURLConnection.m; sourceTree = "<group>"; };
+		57A808621505914E00494DAD /* UAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAReachability.h; sourceTree = "<group>"; };
+		57A808631505914E00494DAD /* UAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,48 +165,6 @@
 				5718D6FC14FA115C009E04BC /* MenubarIcon.png */,
 			);
 			path = Graphics;
-			sourceTree = "<group>";
-		};
-		5718D6FE14FA11D2009E04BC /* UAGithubEngine */ = {
-			isa = PBXGroup;
-			children = (
-				5718D6FF14FA11D2009E04BC /* UAGithubEngine.h */,
-				5718D70014FA11D2009E04BC /* UAGithubEngine.m */,
-				5718D70114FA11D2009E04BC /* UAReachability.h */,
-				5718D70214FA11D2009E04BC /* UAReachability.m */,
-				5718D70314FA11D2009E04BC /* UAGithubEngineRequestTypes.h */,
-				5718D70414FA11D2009E04BC /* UAGithubEngineConstants.h */,
-				5718D70514FA11D2009E04BC /* UAGithubEngineConstants.m */,
-				5718D70614FA11D2009E04BC /* UAGithubURLConnection.h */,
-				5718D70714FA11D2009E04BC /* UAGithubURLConnection.m */,
-				5718D70814FA11D2009E04BC /* Categories */,
-				5718D70914FA11D2009E04BC /* JSON Parsers */,
-			);
-			path = UAGithubEngine;
-			sourceTree = "<group>";
-		};
-		5718D70814FA11D2009E04BC /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				5718D70A14FA11D2009E04BC /* NSData+Base64.h */,
-				5718D70B14FA11D2009E04BC /* NSData+Base64.m */,
-				5718D70C14FA11D2009E04BC /* NSString+UAGithubEngineUtilities.h */,
-				5718D70D14FA11D2009E04BC /* NSString+UAGithubEngineUtilities.m */,
-				5718D70E14FA11D2009E04BC /* NSString+UUID.h */,
-				5718D70F14FA11D2009E04BC /* NSString+UUID.m */,
-				5718D71014FA11D2009E04BC /* NSArray+Utilities.h */,
-				5718D71114FA11D2009E04BC /* NSArray+Utilities.m */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
-		5718D70914FA11D2009E04BC /* JSON Parsers */ = {
-			isa = PBXGroup;
-			children = (
-				5718D71214FA11D2009E04BC /* UAGithubJSONParser.h */,
-				5718D71314FA11D2009E04BC /* UAGithubJSONParser.m */,
-			);
-			name = "JSON Parsers";
 			sourceTree = "<group>";
 		};
 		5718D71F14FA164D009E04BC /* LRAppDefaults */ = {
@@ -328,10 +286,10 @@
 		571F50E114F9E85900230D43 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				57A8084D1505914E00494DAD /* UAGithubEngine */,
 				5771C21A150230CD00CA9862 /* LaunchAtLoginController */,
 				5771C1EC15021FEF00CA9862 /* taskit */,
 				5718D71F14FA164D009E04BC /* LRAppDefaults */,
-				5718D6FE14FA11D2009E04BC /* UAGithubEngine */,
 			);
 			path = libs;
 			sourceTree = "<group>";
@@ -352,6 +310,40 @@
 				5771C21C150230CD00CA9862 /* LaunchAtLoginController.m */,
 			);
 			path = LaunchAtLoginController;
+			sourceTree = "<group>";
+		};
+		57A8084D1505914E00494DAD /* UAGithubEngine */ = {
+			isa = PBXGroup;
+			children = (
+				57A808501505914E00494DAD /* Classes */,
+			);
+			path = UAGithubEngine;
+			sourceTree = "<group>";
+		};
+		57A808501505914E00494DAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57A808511505914E00494DAD /* NSArray+Utilities.h */,
+				57A808521505914E00494DAD /* NSArray+Utilities.m */,
+				57A808531505914E00494DAD /* NSData+Base64.h */,
+				57A808541505914E00494DAD /* NSData+Base64.m */,
+				57A808551505914E00494DAD /* NSString+UAGithubEngineUtilities.h */,
+				57A808561505914E00494DAD /* NSString+UAGithubEngineUtilities.m */,
+				57A808571505914E00494DAD /* NSString+UUID.h */,
+				57A808581505914E00494DAD /* NSString+UUID.m */,
+				57A808591505914E00494DAD /* UAGithubEngine.h */,
+				57A8085A1505914E00494DAD /* UAGithubEngine.m */,
+				57A8085B1505914E00494DAD /* UAGithubEngineConstants.h */,
+				57A8085C1505914E00494DAD /* UAGithubEngineConstants.m */,
+				57A8085D1505914E00494DAD /* UAGithubEngineRequestTypes.h */,
+				57A8085E1505914E00494DAD /* UAGithubJSONParser.h */,
+				57A8085F1505914E00494DAD /* UAGithubJSONParser.m */,
+				57A808601505914E00494DAD /* UAGithubURLConnection.h */,
+				57A808611505914E00494DAD /* UAGithubURLConnection.m */,
+				57A808621505914E00494DAD /* UAReachability.h */,
+				57A808631505914E00494DAD /* UAReachability.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,15 +465,6 @@
 			files = (
 				571F50BA14F9E81800230D43 /* main.m in Sources */,
 				571F50C114F9E81800230D43 /* AppDelegate.m in Sources */,
-				5718D71414FA11D2009E04BC /* UAGithubEngine.m in Sources */,
-				5718D71514FA11D2009E04BC /* UAReachability.m in Sources */,
-				5718D71614FA11D2009E04BC /* UAGithubEngineConstants.m in Sources */,
-				5718D71714FA11D2009E04BC /* UAGithubURLConnection.m in Sources */,
-				5718D71814FA11D2009E04BC /* NSData+Base64.m in Sources */,
-				5718D71914FA11D2009E04BC /* NSString+UAGithubEngineUtilities.m in Sources */,
-				5718D71A14FA11D2009E04BC /* NSString+UUID.m in Sources */,
-				5718D71B14FA11D2009E04BC /* NSArray+Utilities.m in Sources */,
-				5718D71C14FA11D2009E04BC /* UAGithubJSONParser.m in Sources */,
 				5718D73A14FA164D009E04BC /* LRAppDefaults.m in Sources */,
 				5718D74114FA176D009E04BC /* RepoMenuItem.m in Sources */,
 				5718D74A14FA1EBF009E04BC /* IssueMenuItem.m in Sources */,
@@ -491,6 +474,15 @@
 				5771C20715021FEF00CA9862 /* Taskit.m in Sources */,
 				5771C21E150230CD00CA9862 /* LaunchAtLoginController.m in Sources */,
 				5771C226150233F600CA9862 /* PrefController.m in Sources */,
+				57A808761505914E00494DAD /* NSArray+Utilities.m in Sources */,
+				57A808771505914E00494DAD /* NSData+Base64.m in Sources */,
+				57A808781505914E00494DAD /* NSString+UAGithubEngineUtilities.m in Sources */,
+				57A808791505914E00494DAD /* NSString+UUID.m in Sources */,
+				57A8087A1505914E00494DAD /* UAGithubEngine.m in Sources */,
+				57A8087B1505914E00494DAD /* UAGithubEngineConstants.m in Sources */,
+				57A8087C1505914E00494DAD /* UAGithubJSONParser.m in Sources */,
+				57A8087D1505914E00494DAD /* UAGithubURLConnection.m in Sources */,
+				57A8087E1505914E00494DAD /* UAReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
